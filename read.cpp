@@ -30,5 +30,9 @@ int main() {
     string s(buf);
     
     cout << s << endl;
+    
+    if (s.length() > 0) {
+      break;
+    }
   }
 }
